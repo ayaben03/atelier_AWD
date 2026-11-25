@@ -9,6 +9,7 @@
         <module name="notification" />
         <module name="canditature" />
         <module name="eureka" />
+        <module name="Gateway" />
         <module name="candidat" />
         <module name="job" />
         <module name="meeting" />
@@ -18,6 +19,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Gateway" options="-parameters" />
       <module name="candidat" options="-parameters" />
       <module name="canditature" options="-parameters" />
       <module name="eureka" options="-parameters" />
